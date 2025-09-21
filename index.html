@@ -2,12 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Privacy Policy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adspend Estimator – Privacy Policy & Business Info</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #343a40;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #222;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    .highlight {
+      background: #e9ecef;
+      padding: 1rem;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background: #f1f1f1;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p>This app is used only for internal business purposes.</p>
-  <p>We do not collect, store, or share any personal data from users.</p>
-  <p>Contact: your@email.com</p>
+
+  <header>
+    <h1>Adspend Estimator</h1>
+    <p>Privacy Policy & Business Information</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Privacy Policy</h2>
+      <p>
+        This application (“Adspend Estimator”) respects your privacy. We do not collect,
+        store, or share any personally identifiable information unless explicitly required 
+        to provide the intended functionality. Any data processed is handled securely and 
+        in compliance with GDPR regulations.
+      </p>
+      <p>
+        If you have any questions regarding this policy, please contact us using the 
+        information below.
+      </p>
+    </section>
+
+    <section>
+      <h2>Business Information</h2>
+      <div class="highlight">
+        <p><strong>Business Name:</strong> Jakub Drobil</p>
+        <p><strong>IČO:</strong> 07590741</p>
+        <p><strong>Address:</strong> Sokolovská 763/11, 323 00 Plzeň, Czech Republic</p>
+        <p><strong>Email:</strong> jakub.drobil@gmail.com</p>
+        <p><strong>Phone:</strong> +420602956050</p>
+      </div>
+      <p>
+        This business is officially registered as a <em>Sole Proprietorship (OSVČ)</em> in the Czech Republic.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> Adspend Estimator. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
